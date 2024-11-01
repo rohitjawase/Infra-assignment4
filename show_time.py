@@ -1,2 +1,3 @@
 import datetime
-print("Current time:", datetime.datetime.now().time())
+print("Current date, time, and day:", datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S %A"))
+
